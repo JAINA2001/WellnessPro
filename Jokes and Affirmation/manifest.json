@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "WellnessPro",
+  "version": "1.0.0",
+  "description": "Wellness and Productivity",
+  
+  "icons": {
+    "128": "img/logo128.png",
+    "48": "img/logo48.png",
+    "16": "img/logo16.png"
+  },
+  "action":{
+    "default_popup":"popup.html",
+    "default_icon":"img/logo16.png"
+  },
+  "permissions":[
+      "tabs"
+  ]
+}
