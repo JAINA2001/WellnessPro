@@ -9,14 +9,15 @@ A HackOn 2.0 Project addressing Mental Health.
 
 # About this Project
 # Tech Stack Components
- * Bootsrap
+ * Bootstrap
+ * icanhazdadjoke API
  
 # Run this project on your local machine
 ```
-1.Fork this Repository
+1. Fork this Repository
 ```
 ```
-2.Clone the repository into a folder on your machine
+2. Clone the repository into a folder on your machine
   git clone https://github.com/JAINA2001/WellnessPro.git
 ```
 # Authors
