@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.flip-container {
+    perspective: 1000px;
+    width : 280px;
+    height : 172px;
+    margin-top:15px;
+    border-radius:20px;
+    background-color: rgb(12, 54, 26);
+}
+
+.flip-inner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.flip-container:hover .flip-inner-container {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  background-color: burlywood;
+}
+.flip-front {
+  background: burlywood;
+  width:250px;
+  padding:15px;
+  height : 172px;
+}
+.flip-back {
+  width: 280px;
+  height : 172px;
+  background: burlywood;
+  transform: rotateY(180deg);
+}
+
+.flip-back p {
+  font-size: 13px;
+  font-weight: 500;
+}

@@ -1,0 +1,53 @@
+body {
+    width: 300px;
+    height: 400px;
+    background-color: #EEEEEE;
+  }
+  .logo{
+    padding:5px 125px;
+  }
+  image{
+    margin-top: 10px;
+    margin-left: auto;
+  }
+  .name{
+    width:145px;
+    height :38px;
+    margin-left:88px;
+    font-weight:700;
+    font-size: 24px;
+  }
+  .main{
+    display:block;
+    margin:auto;
+    height:380px;
+    width:300px;
+    background-color:#09ADAD;
+  }
+  .buttons{
+    margin:10px;
+    padding:5px;
+  }
+  .buttons button{
+    display: inline-block;
+    width:120px;
+    height:38px;
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 20px;
+    padding:10px;
+    margin:20px 5px;
+  }
+  .card{
+    width : 264px;
+    height : 172px;
+    margin-top:15px;
+    margin-left:15px;
+    border-radius:20px;
+  }
+  #text{
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
