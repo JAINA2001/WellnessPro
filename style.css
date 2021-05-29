@@ -30,10 +30,10 @@
   height: 100%;
   backface-visibility: hidden;
   border-radius: 20px;
-  background-color: burlywood;
+  background-color: #EDE7DC;
 }
 .flip-front {
-  background: burlywood;
+  background: #EDE7DC;
   width:250px;
   padding:15px;
   height : 172px;
@@ -41,7 +41,7 @@
 .flip-back {
   width: 280px;
   height : 172px;
-  background: burlywood;
+  background: #00ADB5;
   transform: rotateY(180deg);
 }
 
