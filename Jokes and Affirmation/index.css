@@ -51,32 +51,25 @@ body {
     border-radius:20px;
   }
   .card-name{
-    padding:20px;
     color:#050A30;
-    font-weight:bolder;
+    font-weight:bold;
+    font-size:80px;
   }
   #text{
-    padding:10px;
     font-size:x-large;
     font-weight: bolder;
     font-style: italic;
     color:#050A30;
-  }
-  .limg {
-    margin-top: 10px;
-    margin-left:8px;
-  }
-  .limg image{
-    position:fixed;
   }
   .flip-front p{
     margin:10px;
     padding:5px;
   }
   #res{
-    font-size:x-large;
-    font-family:cursive;
-    font-weight:900;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    color:#050A30;
   }
 .footer{
   width:300px;
