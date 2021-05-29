@@ -4,35 +4,34 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id ="body">
     <div class="logo">
       <image src = "img/logo128.png" width="48px" height="48px"></image>
     </div>
     <div class="name">WellnessPro</div>
     <div class = "main">
       <div class="buttons">
-        <button id="jokebtn">JOKE</button>
-        <button id="affirmbtn">AFFIRMATIONS</button>
+        <button id="jokebtn">LAUGH</button>
+        <button id="affirmbtn" >ASSURE</button>
       </div>
       <div class="card">
         <div class ="flip-container">
           <div class="flip-inner-container">
             <div class="flip-front">
-              <h2>WellnessPro</h2>
-              <p id="text"></p>
+              <image id="pandas" src="img/pandab.png" width="100px" height="100px"></image>
+              <p id="text">Click Laugh or Assure</p>
             </div>
             <div class="flip-back">
-            <div class="profile-image">
-             <p id ="res"></p>
-            </div>
+              <p id="text-back">Click Laugh or Assure</p>
+             <p id ="res" class="result"></p>
+            
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <script src="popup.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <div class="footer"></div>
+    <script src="popup.js" type="text/javascript"></script>
   </body>
 </html>
 

@@ -1,7 +1,13 @@
+const aBtn = document.getElementById('affirmbtn');
+var aText = document.querySelector('#res');
 const jBtn = document.getElementById('jokebtn');
 var jText = document.querySelector('#res'); 
+var para = document.querySelector('#text');
 
+//generate jokes
 jBtn.addEventListener('click',async function(){
+    para.innerHTML = "Hover Over me!";
+    document.getElementById('text-back').style.display = "none";
     const data = await fetch('https://icanhazdadjoke.com/',{
         headers:{
             'Accept': 'application/json'
@@ -10,10 +16,6 @@ jBtn.addEventListener('click',async function(){
     const jokeObj = await data.json();
     jText.innerHTML = jokeObj.joke;
 })
-
-
-const aBtn = document.getElementById('affirmbtn');
-var aText = document.querySelector('#res'); 
 
 // 47 affirmations
 const affirmations = [
@@ -72,9 +74,27 @@ const affirmations = [
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 var i = getRandomInt(0,47);
-
+ 
+//afirmations generator
 aBtn.addEventListener("click", function() {
-    document.getElementById("text").innerHTML = "Affirmations!";  
+    para.innerHTML = "Hover Over me!";
+    document.getElementById('text-back').style.display = "none";
     aText.innerHTML = affirmations[i];  
-i++;
+    i++;
 });
+
+//font size styler
+const getFontSize = (textLength) => {
+    const baseSize = 10;
+    if (textLength >= baseSize) {
+      textLength = baseSize - 2
+    }
+    const fontSize = baseSize - textLength
+    return `${fontSize}vw`
+  }
+  
+  const boxes = document.querySelectorAll('#res')
+    
+  boxes.forEach(box => {
+    box.style.fontSize = getFontSize(box.textContent.length)
+  })
