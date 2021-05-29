@@ -8,6 +8,9 @@ A HackOn 2.0 Project addressing Mental Health.
 - [Authors](#authors)
 
 # About this Project
+# Tech Stack Components
+ * Bootsrap
+ 
 # Run this project on your local machine
 ```
 1.Fork this Repository
