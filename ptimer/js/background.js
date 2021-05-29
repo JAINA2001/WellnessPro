@@ -37,7 +37,7 @@ function startAlarm(times) {
 }
 
 function beep() {
-    var snd = new Audio("alert.wav");
+    var snd = new Audio("js/alert.mp3");
     snd.play();
 }
 
