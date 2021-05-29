@@ -6,7 +6,7 @@
     height : 172px;
     margin-top:15px;
     border-radius:20px;
-    background-color: rgb(12, 54, 26);
+    background-color: #737a83;
 }
 
 .flip-inner-container {
@@ -41,11 +41,6 @@
 .flip-back {
   width: 280px;
   height : 172px;
-  background: #00ADB5;
+  background: #EDE7DC;
   transform: rotateY(180deg);
-}
-
-.flip-back p {
-  font-size: 13px;
-  font-weight: 500;
 }
