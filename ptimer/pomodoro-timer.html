@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="http://www.jqueryscript.net/css/jquerysctipttop.css" type="text/css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/pomodoro-timer.css">
+  <style>
+    body {
+      background-color: #fafafa;
+      width: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="pomodoro_x128.png">
+  </div>
+  <div class="container">
+    <h2 class="text-center" style="margin-top: 10px;">
+      <span>
+        <button id="pomodoroButton" data-time-span="00:25:00" class="btn btn-default">Pomodoro</button>
+        <button id="shortButton" data-time-span="00:05:00" class="btn btn-default">Short Break</button>
+        <button id="longButton" data-time-span="00:15:00" class="btn btn-default">Long Break</button>
+      </span>
+    </h2>
+    <div class="panel panel-default" style="margin-bottom: 10px;">
+      <div class="panel-body text-center">
+        <div class="timer-time timer-container">
+          <div class="timer-time-set timer-box" id="currentTime">
+            <span id="hoursValue">00</span>
+            <span>:</span>
+            <span id="minutesValue">00</span>
+            <span>:</span>
+            <span id="secondsValue">00</span>
+          </div>
+        </div>
+        <div>
+          <button id="restartButton" class="btn btn-danger btn-lg">
+            <span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span>
+          </button>
+          <button id="startButton" class="btn btn-danger btn-lg">
+            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          </button>
+          <button id="stopButton" class="btn btn-danger btn-lg">
+            <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery-1.12.0.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/pomodoro-timer.js"></script>
+
+</body>
+
+</html>
