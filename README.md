@@ -1,4 +1,4 @@
-## WellnessPro - ![](Jokes%20and%20Affirmation/img/logo48.png)
+# WellnessPro - ![](Jokes%20and%20Affirmation/img/logo48.png)
 A HackOn 2.0 Project addressing Mental Health.
 
 # Table of Contents
