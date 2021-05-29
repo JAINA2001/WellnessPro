@@ -68,11 +68,16 @@ body {
   #res{
     justify-content: center;
     align-items: center;
-    font-size: 8vw;
+    font-size: 20px;
     color:#050A30;
   }
 .footer{
   width:300px;
   height:4px;
   background-color: white;
+}
+#text-back{
+  margin-top: 70px;
+  font-size: 5vw;
+  color:#050A30;
 }

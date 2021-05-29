@@ -83,7 +83,6 @@ aBtn.addEventListener("click", function() {
     i++;
 });
 
-//font size styler
 const getFontSize = (textLength) => {
     const baseSize = 10;
     if (textLength >= baseSize) {
