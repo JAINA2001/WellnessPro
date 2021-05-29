@@ -1,4 +1,4 @@
-# WellnessPro - ![](logo.png)
+# <img src="logo.png" width="100" height="100"/> WellnessPro 
 A Project created during the HackOn 2.0 hackathon related to one of their themes Mental Awarness.
 
 # Table of Contents
@@ -11,8 +11,10 @@ A Project created during the HackOn 2.0 hackathon related to one of their themes
 This project contains a website and two chrome extensions.
 ```
 Website
-  This website is the one stop solution for anyone trying to keep in check with their mental wellness.
-  There are multiple sources found on this website 
+  * This website is the one stop solution for anyone trying to keep in check with their mental wellness.
+  There are multiple sources found on this website
+  *
+
 ```
 ```
 Chrome Extnion - Jokes and Affirmations
