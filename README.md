@@ -1,5 +1,5 @@
 # WellnessPro - ![](Jokes%20and%20Affirmation/img/logo48.png)
-A HackOn 2.0 Project addressing Mental Health.
+A Project created during the HackOn 2.0 hackathon related to one of their themes Mental Awarness.
 
 # Table of Contents
 - [About the Project](#about-this-project)
@@ -8,6 +8,17 @@ A HackOn 2.0 Project addressing Mental Health.
 - [Authors](#authors)
 
 # About this Project
+This project contains a website and two chrome extensions.
+```
+Website
+  This website is the one stop 
+```
+```
+Chrome Extnion - Jokes and Affirmations
+```
+```
+Chrome Extnion - Pomodoro timer 
+```
 # Tech Stack Components
  * Bootsrap
  
