@@ -24,6 +24,11 @@
   height: 60px;
 }
 
+#header-img {
+  height: 48px;
+  width: 48px;
+  margin-left: 225px;
+}
 .footer .container {
 
 }
