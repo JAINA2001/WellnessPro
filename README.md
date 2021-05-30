@@ -30,7 +30,7 @@ Chrome Extension - Jokes and Affirmations
 
 ```
 ```
-Chrome Extensin - Pomodoro timer 
+Chrome Extension - Pomodoro timer 
   A Simple Pomodoro timer that boosts productivity.
   It allows users to start, stop, resume a 25 minute countdown. 
   After this the user can choose a short or a long break based on their needs.
