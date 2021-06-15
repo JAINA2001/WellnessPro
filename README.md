@@ -1,4 +1,4 @@
- # <img src="logo.png" width="100" height="100"/> WellnessPro
+ # <img src="logo.png" width="50" height="50"/> WellnessPro
   
 A Project created during the HackOn 2.0 hackathon related to one of their themes Mental Awarness.
 
